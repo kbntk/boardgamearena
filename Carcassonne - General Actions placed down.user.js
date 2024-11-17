@@ -42,12 +42,12 @@
 
         footerDiv.insertBefore(pageTitleDownDiv, footerDiv.firstChild);
 
-        //         const observedDiv = document.getElementById('action_confirm');
-        //         observer.observe(observedDiv, {
-        //             childList: true,   // Observe direct children
-        //             subtree: true,     // Observe all descendants
-        //             characterData: true // Observe changes to text content
-        //         });
+                const observedDiv = document.getElementById('action_confirm');
+                observer.observe(observedDiv, {
+                    childList: true,   // Observe direct children
+                    subtree: true,     // Observe all descendants
+                    characterData: true // Observe changes to text content
+                });
 
     });
 
